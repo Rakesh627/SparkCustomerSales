@@ -19,9 +19,7 @@ Clone the repository and import the project into your IDE and update the Maven p
 
 The project `default configuration` is on the Properites.java file with default location. Please modify this to your setting or use the command line paramters listed below.
 
-Build a jar file out of the project and you can submit the jar to your spark cluster. If you want a pre-built JAR file please check in the `jar` folder for `project.jar`
-
-
+Build a jar file out of the project and you can submit the jar to your spark cluster. 
 
 Input Arguements
 ----------------
@@ -35,7 +33,6 @@ Input Arguements
 `-state is a state filter, provide a list of states delimited by ','`
 
 The hdfs or local file system URL's can be changed below appropriately, depending on the requirement.
-
 
 Running the project in Yarn
 ----------------------------
@@ -52,8 +49,6 @@ Running the project in Yarn
 
 `-state AL,AK`
 
-
-
 Running the project in standalone or local
 ------------------------------------------
 
@@ -68,8 +63,6 @@ Running the project in standalone or local
 `-o hdfs://localhost:8020/user/hadoop/sparkjob/output \`
 
 `-state AL,AK`
-
-
 
 Running the project with large dataset
 ---------------------------------------
