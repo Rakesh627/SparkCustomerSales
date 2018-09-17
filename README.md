@@ -1,6 +1,30 @@
-The project takes in a customer & sales data and transforms them into customer-sales data for further processing:
+Project Information
+-------------------
 
-Commands to pass the file:
+
+The project takes in a customer & sales data and transforms them into customer-sales data for further processing. 
+It currently performs groupBy operations in the following criteria:
+
+1. Group by State
+2. Group by State and Year
+3. Group by State, Year and Month
+4. Group by State, Year, Month and Day
+5. Group by State, Year, Month, Day and Hour.
+
+To view the results for a particular state please use the arguement `-state <List Of States by ','>`.
+
+Installation
+------------
+Clone the repository and import the project into your IDE and update the Maven project to get all the War files. Importing into a IDE like eclipse automatically does this once imported.
+
+The project `default configuration` is on the Properites.java file with default location. Please modify this to your setting or use the command line paramters listed below.
+
+Build a jar file out of the project and you can submit the jar to your spark cluster.
+
+
+
+Input Arguements
+----------------
 
 `-c is for Customer file location, can be hdfs or local file system`
 
