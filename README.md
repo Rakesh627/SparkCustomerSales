@@ -24,6 +24,7 @@ Build a jar file out of the project and you can submit the jar to your spark clu
 To Build project:
 
 `cd ~/SparkCustomerSales`
+
 `mvn clean install`
 
 Following updating the maven resources, you can go ahead and import.
