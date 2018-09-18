@@ -17,7 +17,7 @@ Installation
 ------------
 Clone the repository and import the project into your IDE and update the Maven project to get all the jar files required for the project. Importing into a IDE like eclipse automatically does this once imported.
 
-The project `default configuration` is on the Properites.java file with default location. Please modify this to your setting or use the command line paramters listed below.
+The project `default configuration` is on the Properites.java file with default location. Please modify this to your setting or use the command line parameters listed below.
 
 Build a jar file out of the project and you can submit the jar to your spark cluster. 
 
