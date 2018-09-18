@@ -21,6 +21,13 @@ The project `default configuration` is on the Properites.java file with default 
 
 Build a jar file out of the project and you can submit the jar to your spark cluster. 
 
+To Build project:
+
+`cd ~/SparkCustomerSales`
+`mvn clean install`
+
+Following updating the maven resources, you can go ahead and import.
+
 Input Arguements
 ----------------
 
